@@ -1,0 +1,252 @@
+html,body,div,span,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,a, abbr, acronym, address,
+big, cite, code, del, dfn, em, img, ins, kbd, q,  samp,
+small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot,
+thead, tr, th, td
+{
+    margin: 0;
+    padding: 0;
+    border:0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+#header{
+    background-color: #333333;
+    height: 80px;
+}
+
+#header.logo{
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-left: 20px;
+    border-left: 20px;
+}
+
+#header .guide{
+    float: right;
+    padding-right: 20px;
+    height: 50px;
+    margin-top: -40px;
+}
+
+#header .logo img{
+    height: 70px;
+}
+ .guide li{
+    display: inline-block;
+}
+
+ .guide a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.guide a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.guide a:hover{
+    text-decoration: none;
+    color: #F1B4C3;
+}
+
+.guide a:active{
+    text-decoration: none;
+    color: gray;
+}
+
+
+div #passage-body{
+    background-color: #DCDCDC;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+div #passage-body .passage{
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 20px 20px;
+    box-shadow: 3px 3px 3px #333;
+}
+
+div .passage h1{
+    text-align: left;
+    padding-left: 20px;
+    font-family: 微软雅黑 monospace;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+div .passage h2{
+    text-align: left;
+    padding-left: 20px;
+    font-family: 微软雅黑 monospace;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color:#878586;
+}
+
+div.passage p.passage-info{
+    text-align: left;
+    padding-left: 20px;
+    font-family: 微软雅黑 monospace;
+    line-height: 30px;
+    color: #A9A9A9;
+    font-size: 15px;
+    font-weight: 400;
+    text-indent: 0;
+}
+
+div.passage p{
+    text-align: left;
+    font-family: 微软雅黑 monospace;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: normal;
+    text-indent: 30px;
+}
+
+div.passage ul li{
+    list-style-type: none;
+    text-align: left;
+    font-family: 微软雅黑 monospace;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    text-indent: 10px;
+}
+
+div.passage div.picture{
+    border: solid 1px #DCDCDC;
+    margin: 20px;
+    width: 240px;
+}
+
+div.passage div.picture p{
+    text-align: center;
+}
+
+div.passage div.passage img{
+    width: 200px;
+    height: 130px;
+    margin: 20px;
+}
+
+div.passage ol{
+    margin-left: 50px;
+}
+
+div.passage ol li{
+    text-align: left;
+    font-family:微软雅黑 monospace;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    text-indent: 10px;
+}
+
+div.passage table{
+    border:1px solid white;
+    width: 100%;
+    border-spacing: 0;
+}
+
+div.passage tr th{
+    background-color: black;
+    border:1px solid #DCDCDC;
+    color:white;
+}
+
+div.passage tr td{
+    border:1px solid #DCDCDC;
+}
+
+div.passage tr.tablesum{
+    background-color: #DCDCDC;
+    border: 1px solid #CCCCCC;
+}
+
+aside header{
+    border-left: 30px solid #CCCCCC;
+    padding: 1px 0 1px 10px;
+    margin-bottom: 10px;
+}
+
+aside header h1{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+aside form div{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+aside form .left{
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+}
+
+aside form .left:last-of-type{
+    vertical-align: top;
+}
+
+aside form .right{
+    margin-left: 5px;
+}
+
+aside form .placeholder{
+    margin-left: calc(40% + 10px);
+    color: #aaaaaa;
+    font-size: 14px;
+}
+
+aside form input[type="email"],
+aside form input[type="password"],
+aside form textarea,
+aside form select{
+    padding: 3px;
+}
+
+aside form input[type="submit"] {
+    width: 100%;
+    padding: 10px 0 10px 0;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: blue;
+    color: #fff;
+}
+aside form textarea {
+    width: 55%;
+}
+
+
+div#footer{
+    background-color: #0E1114;
+    height: 40px;
+    padding: 20px;
+}
+div#footer div.copy{
+
+}
+div#footer p{
+    color: white;
+    text-align: center;
+    line-height: 20px;
+}
+
+
+
+
+
+
